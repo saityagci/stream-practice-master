@@ -59,7 +59,7 @@ public class Practice {
     // Display all the jobs
     public static List<Job> getAllJobs() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return jobService.readAll();
     }
 
     // Display all the locations
